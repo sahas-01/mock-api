@@ -11,6 +11,7 @@ models:
       stars: { int: [20, 10000] } 
       developedBy: { string: [10,30] }
       updatedAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
+  
   Model:
     data: [{
     "category": "Feature Extraction",
@@ -19,7 +20,7 @@ models:
     "downloads": 2970,
     "id": 1,
     "shortDescription": "This is an open source v2 version of W2v-BERT 2.0 speech encoder",
-    "longDescription": "We are open-sourcing our Conformer-based W2v-BERT 2.0 speech encoder as described in Section 3.2.1 of the paper, which is at the core of our Seamless models. This model was pre-trained on 4.5M hours of unlabeled audio data covering more than 143 languages. It requires finetuning to be used for downstream tasks such as Automatic Speech Recognition (ASR), or Audio Classification."
+    "longDescription": "We are open-sourcing our Conformer-based W2v-BERT 2.0 speech encoder as described in Section 3.2.1 of the paper, which is at the core of our Seamless models. This model was pre-trained on 4.5M hours of unlabeled audio data covering more than 143 languages. It requires finetuning to be used for downstream tasks such as Automatic Speech Recognition (ASR), or Audio Classification.",
     "stars": 82,
     "title": "facebook/w2v-bert-2.0",
     "updatedAt": "2012-06-09T04:02:09Z",
