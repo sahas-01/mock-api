@@ -1,11 +1,86 @@
 models:
   Model:
+    data: [{
+    "category": "Feature Extraction",
+    "cover": "https://picsum.photos/seed/4236/1280/720",
+    "developedBy": "Facebook",
+    "downloads": 2970,
+    "id": 1,
+    "shortDescription": "This is an open source v2 version of W2v-BERT 2.0 speech encoder",
+    "longDescription": "We are open-sourcing our Conformer-based W2v-BERT 2.0 speech encoder as described in Section 3.2.1 of the paper, which is at the core of our Seamless models. This model was pre-trained on 4.5M hours of unlabeled audio data covering more than 143 languages. It requires finetuning to be used for downstream tasks such as Automatic Speech Recognition (ASR), or Audio Classification."
+    "stars": 82,
+    "title": "facebook/w2v-bert-2.0",
+    "updatedAt": "2012-06-09T04:02:09Z"
+  },
+  {
+    "category": "Natural Language Processing",
+    "cover": "https://picsum.photos/seed/2345/1280/720",
+    "developedBy": "OpenAI",
+    "downloads": 5432,
+    "id": 2,
+    "shortDescription": "GPT-4: The next iteration of OpenAI's powerful language model.",
+    "longDescription": "GPT-4 is the latest iteration in the GPT series, boasting improved performance and capabilities compared to its predecessors. Trained on a diverse range of text from the internet, GPT-4 excels in a variety of NLP tasks, including text generation, translation, summarization, and more.",
+    "stars": 96,
+    "title": "openai/gpt-4",
+    "updatedAt": "2023-11-15T12:45:30Z"
+  },
+  {
+    "category": "Computer Vision",
+    "cover": "https://picsum.photos/seed/5678/1280/720",
+    "developedBy": "Google Research",
+    "downloads": 7890,
+    "id": 3,
+    "shortDescription": "Vision Transformer (ViT): Applying transformers to image recognition tasks.",
+    "longDescription": "Vision Transformer (ViT) is a novel approach to image recognition that applies transformer architectures directly to images, replacing convolutions with self-attention mechanisms. This model achieves state-of-the-art performance on several benchmark datasets and is highly adaptable to various computer vision tasks.",
+    "stars": 87,
+    "title": "google/vision-transformer",
+    "updatedAt": "2023-09-28T18:20:05Z"
+  },
+  {
+    "category": "Speech Recognition",
+    "cover": "https://picsum.photos/seed/8901/1280/720",
+    "developedBy": "Mozilla",
+    "downloads": 2345,
+    "id": 4,
+    "shortDescription": "DeepSpeech 3.0: Mozilla's latest speech recognition model.",
+    "longDescription": "DeepSpeech 3.0 is Mozilla's state-of-the-art speech recognition model, offering improved accuracy and speed compared to previous versions. Trained on a large corpus of speech data, DeepSpeech 3.0 excels in transcribing spoken language across multiple languages and dialects.",
+    "stars": 79,
+    "title": "mozilla/deepspeech-3.0",
+    "updatedAt": "2023-10-10T09:14:22Z"
+  },
+  {
+    "category": "Machine Translation",
+    "cover": "https://picsum.photos/seed/1112/1280/720",
+    "developedBy": "Microsoft Research",
+    "downloads": 4321,
+    "id": 5,
+    "shortDescription": "MarianMT: A powerful neural machine translation system.",
+    "longDescription": "MarianMT is a neural machine translation system developed by Microsoft Research, capable of translating text between multiple languages with high accuracy. It leverages transformer-based architectures and has been trained on large-scale parallel corpora, making it suitable for a wide range of translation tasks.",
+    "stars": 88,
+    "title": "microsoft/marianmt",
+    "updatedAt": "2023-12-05T15:55:10Z"
+  },
+  {
+    "category": "Named Entity Recognition",
+    "cover": "https://picsum.photos/seed/1314/1280/720",
+    "developedBy": "Stanford NLP Group",
+    "downloads": 6543,
+    "id": 6,
+    "shortDescription": "StanfordNER: A robust named entity recognition system.",
+    "longDescription": "StanfordNER is a widely-used named entity recognition system developed by the Stanford NLP Group. It accurately identifies and classifies named entities in text, including persons, organizations, locations, and more. StanfordNER has been trained on large annotated datasets and achieves state-of-the-art performance in NER tasks.",
+    "stars": 91,
+    "title": "stanfordnlp/stanfordner",
+    "updatedAt": "2023-08-20T11:30:40Z"
+  }
+  ]
+  Model:
     fake:
       _count: 30
       cover: { imageURL: [1280, 720] }
       title: { loremWords: [5, 10] }
       shortDescription: { loremParagraphs: [10, 20] }
-      category: { oneOfString: [Fintech, HealthCare] }
+      longDescription: { loremParagraphs: [500,1000] }
+      category: { stringOf: [Fintech, HealthCare, Business Analytics] }
       downloads: { int: [0, 1000000] }
       stars: { int: [20, 10000] } 
       developedBy: { string: [10,30] }
