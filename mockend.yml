@@ -1,11 +1,11 @@
 models:
   Model:
     fake:
-      _count: 50
+      _count: 30
       cover: { imageURL: [1280, 720] }
       title: { loremWords: [5, 10] }
       shortDescription: { loremParagraphs: [10, 20] }
-      category: { oneOfString: [Fintech, HealthCare, Text-Exctraction, Business Analytics] }
+      category: { oneOfString: [Fintech, HealthCare] }
       downloads: { int: [0, 1000000] }
       stars: { int: [20, 10000] } 
       developedBy: { string: [10,30] }
