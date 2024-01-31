@@ -71,8 +71,7 @@ models:
     "stars": 91,
     "title": "stanfordnlp/stanfordner",
     "updatedAt": "2023-08-20T11:30:40Z"
-  }
-  ]
+  }]
   Model:
     fake:
       _count: 30
