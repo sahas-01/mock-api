@@ -1,0 +1,12 @@
+models:
+  Model:
+    fake:
+      _count: 50
+      cover: { imageURL: [1280, 720] }
+      title: { loremWords: [5, 10] }
+      shortDescription: { loremParagraphs: [10, 20] }
+      category: { oneOfString: [Fintech, HealthCare, Text-Exctraction, Business Analytics] }
+      downloads: { int: [0, 1000000] }
+      stars: { int: [20, 10000] } 
+      developedBy: { string: [10,30] }
+      updatedAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
