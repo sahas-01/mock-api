@@ -1,5 +1,17 @@
 models:
   Model:
+    fake:
+      _count: 30
+      cover: { imageURL: [1280, 720] }
+      title: { loremWords: [5, 10] }
+      shortDescription: { loremParagraphs: [10, 20] }
+      longDescription: { loremParagraphs: [500,1000] }
+      category: { stringOf: [Fintech, HealthCare, Business Analytics] }
+      downloads: { int: [0, 1000000] }
+      stars: { int: [20, 10000] } 
+      developedBy: { string: [10,30] }
+      updatedAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
+  Model:
     data: [{
     "category": "Feature Extraction",
     "cover": "https://picsum.photos/seed/4236/1280/720",
@@ -97,15 +109,3 @@ models:
                  Document Translation: Translate entire documents or web pages between languages, enabling seamless communication and knowledge sharing across linguistic barriers.
                  E-commerce Localization: Translate product descriptions, reviews, and user interfaces to target diverse markets and audiences, expanding the reach of e-commerce platforms globally."
   }]
-  Model:
-    fake:
-      _count: 30
-      cover: { imageURL: [1280, 720] }
-      title: { loremWords: [5, 10] }
-      shortDescription: { loremParagraphs: [10, 20] }
-      longDescription: { loremParagraphs: [500,1000] }
-      category: { stringOf: [Fintech, HealthCare, Business Analytics] }
-      downloads: { int: [0, 1000000] }
-      stars: { int: [20, 10000] } 
-      developedBy: { string: [10,30] }
-      updatedAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
