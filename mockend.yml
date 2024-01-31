@@ -10,7 +10,12 @@ models:
     "longDescription": "We are open-sourcing our Conformer-based W2v-BERT 2.0 speech encoder as described in Section 3.2.1 of the paper, which is at the core of our Seamless models. This model was pre-trained on 4.5M hours of unlabeled audio data covering more than 143 languages. It requires finetuning to be used for downstream tasks such as Automatic Speech Recognition (ASR), or Audio Classification."
     "stars": 82,
     "title": "facebook/w2v-bert-2.0",
-    "updatedAt": "2012-06-09T04:02:09Z"
+    "updatedAt": "2012-06-09T04:02:09Z",
+    "useCases": "Automatic Speech Recognition (ASR): Utilize the pre-trained speech encoder for transcribing spoken language into text, beneficial in applications like voice assistants and dictation software.
+                Audio Classification: Fine-tune the model for identifying and categorizing different types of audio content, useful in audio content recommendation systems or surveillance systems.
+                Speaker Identification: Employ the model to recognize and differentiate between different speakers in audio recordings, valuable in security and authentication systems.
+                Language Identification: Use the model to detect the language spoken in audio clips, helpful in multilingual speech processing applications.
+                Voice Conversion: Leverage the model to convert the speech characteristics from one speaker to another, applicable in voice cloning or voice transformation tasks."
   },
   {
     "category": "Natural Language Processing",
@@ -22,7 +27,12 @@ models:
     "longDescription": "GPT-4 is the latest iteration in the GPT series, boasting improved performance and capabilities compared to its predecessors. Trained on a diverse range of text from the internet, GPT-4 excels in a variety of NLP tasks, including text generation, translation, summarization, and more.",
     "stars": 96,
     "title": "openai/gpt-4",
-    "updatedAt": "2023-11-15T12:45:30Z"
+    "updatedAt": "2023-11-15T12:45:30Z",
+    "useCases": "Text Generation: Use the model to generate coherent and contextually relevant text for various purposes such as content creation, storytelling, or dialogue generation.
+                 Language Translation: Fine-tune the model for translating text between different languages, aiding in multilingual communication and localization efforts.
+                 Question Answering: Employ the model to answer questions based on given context or knowledge, useful in chatbots, virtual assistants, and FAQ systems.
+                 Text Summarization: Utilize the model to generate concise summaries of long documents or articles, assisting in information retrieval and document analysis tasks.
+                 Sentiment Analysis: Fine-tune the model to analyze the sentiment expressed in text, helpful in social media monitoring, market research, and customer feedback analysis."
   },
   {
     "category": "Computer Vision",
@@ -34,7 +44,12 @@ models:
     "longDescription": "Vision Transformer (ViT) is a novel approach to image recognition that applies transformer architectures directly to images, replacing convolutions with self-attention mechanisms. This model achieves state-of-the-art performance on several benchmark datasets and is highly adaptable to various computer vision tasks.",
     "stars": 87,
     "title": "google/vision-transformer",
-    "updatedAt": "2023-09-28T18:20:05Z"
+    "updatedAt": "2023-09-28T18:20:05Z",
+    "useCases": "Image Classification: Deploy the model for accurately categorizing images into predefined classes, beneficial in content tagging, image search, and object recognition applications.
+                 Object Detection: Utilize the model to detect and localize objects within images, assisting in autonomous vehicles, surveillance systems, and augmented reality applications.
+                 Image Captioning: Combine the model with natural language processing techniques to generate descriptive captions for images, aiding accessibility and content understanding.
+                 Semantic Segmentation: Use the model to segment images into different regions based on semantic similarity, valuable in medical imaging, urban planning, and satellite imagery analysis.
+                 Image Generation: Employ the model to generate realistic images based on textual descriptions or sketches, useful in creative applications and content generation pipelines."
   },
   {
     "category": "Speech Recognition",
@@ -58,7 +73,12 @@ models:
     "longDescription": "MarianMT is a neural machine translation system developed by Microsoft Research, capable of translating text between multiple languages with high accuracy. It leverages transformer-based architectures and has been trained on large-scale parallel corpora, making it suitable for a wide range of translation tasks.",
     "stars": 88,
     "title": "microsoft/marianmt",
-    "updatedAt": "2023-12-05T15:55:10Z"
+    "updatedAt": "2023-12-05T15:55:10Z",
+    "useCases" : "Transcription Services: Utilize the model to transcribe spoken audio into written text with high accuracy, beneficial in media transcription, lecture capture, and accessibility services.
+                  Voice Command Recognition: Deploy the model for recognizing and interpreting spoken commands, powering voice-controlled applications, smart home devices, and automotive interfaces.
+                  Call Center Analytics: Analyze customer interactions by transcribing and analyzing calls in real-time or post-call, enabling sentiment analysis, keyword extraction, and quality assurance.
+                  Language Learning: Provide learners with speech-to-text capabilities to assist in language learning and pronunciation practice, offering immediate feedback and assessment.
+                  Voice Search: Power voice-based search engines to retrieve information from audio content, enhancing user experience in multimedia search platforms and podcast directories."
   },
   {
     "category": "Named Entity Recognition",
@@ -70,7 +90,12 @@ models:
     "longDescription": "StanfordNER is a widely-used named entity recognition system developed by the Stanford NLP Group. It accurately identifies and classifies named entities in text, including persons, organizations, locations, and more. StanfordNER has been trained on large annotated datasets and achieves state-of-the-art performance in NER tasks.",
     "stars": 91,
     "title": "stanfordnlp/stanfordner",
-    "updatedAt": "2023-08-20T11:30:40Z"
+    "updatedAt": "2023-08-20T11:30:40Z",
+    "useCases": "Multilingual Content Creation: Use the model to translate content across multiple languages, facilitating global communication, content localization, and internationalization efforts.
+                 Cross-Lingual Information Retrieval: Translate search queries or documents between languages to retrieve relevant information from multilingual sources, aiding in cross-border research and information access.
+                 Subtitle Generation: Automatically translate spoken dialogue into subtitles for videos or live streams, enhancing accessibility and reach for diverse audiences.
+                 Document Translation: Translate entire documents or web pages between languages, enabling seamless communication and knowledge sharing across linguistic barriers.
+                 E-commerce Localization: Translate product descriptions, reviews, and user interfaces to target diverse markets and audiences, expanding the reach of e-commerce platforms globally."
   }]
   Model:
     fake:
